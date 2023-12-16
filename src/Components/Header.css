@@ -1,0 +1,59 @@
+/* Header.css */
+.header {
+    background-color: #0DB71E;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    height: 70px;
+  }
+  h1{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .logo{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    padding: 3px 20px;
+  }
+  
+  .search input {
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border: none;
+  }
+  
+  .third-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+  .user-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+  .user-part p{
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .notification {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
